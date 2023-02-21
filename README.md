@@ -22,7 +22,7 @@ docker run -d -it --network cdntip_network --restart=always -p 8111:80 --name pa
 
 docker exec -it panel /bin/bash
 
-创建管理员 python manage.py createsuperuser --username gd772 --email foeg3fsfe4ifa@wf38sf.com fe39SI33##3Ss3zb83 #（创建用户）
+创建管理员 python manage.py createsuperuser --username gd772 --email foeg3fsfe4ifa@wf38sf.com #（创建用户）
 
 添加aws镜像
 

@@ -16,7 +16,7 @@ mkdir /data && docker run -d -it --network cdntip_network --restart=always -v /d
 
 启动 cdntip/panel
 
-docker run -d -it --network cdntip_network -p 8111:80 --name panel cdntip/panel (8111端口可改为任意，此处为实际对外端口)
+docker run -d -it --network cdntip_network --restart=always -p 8111:80 --name panel cdntip/panel:latest (8111端口可改为任意，此处为实际对外端口)
 
 进入容器
 

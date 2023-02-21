@@ -1,4 +1,4 @@
-# FreePanel
+# CloudPanel
 
 This is a panel to manage all kinds of cloud accounts, such as az aws do, linode 这个面板不适合一点linux和docker基础都没有的童鞋安装Docker
 

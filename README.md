@@ -1,10 +1,10 @@
-# CloudPanel
+# Cdntip/Panel
 
 This is a panel to manage all kinds of cloud accounts, such as az aws do, linode 这个面板不适合一点linux和docker基础都没有的童鞋
 
 安装Docker
 
-curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh && service docker start ＃如果docker没启动，可以运行这个
+curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh && service docker start
 
 docker创建网络
 

@@ -12,7 +12,7 @@ docker network create cdntip_network
 
 启动mysql容器
 
-mkdir /data && docker run -d -it --network cdntip_network --restart=always -v /data/mysql:/var/lib/mysql --name panel_mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=panel mysql:5.7 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci # (更改mysqlroot密码，机器内部也需要修改database.conf文件的密码)
+mkdir /data && docker run -d -it --network cdntip_network --restart=always -v /data/mysql:/var/lib/mysql --name panel_mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=panel mysql:5.7 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci # (更改mysqlroot密码，容器内部也需要修改 apt install nano && nano config/database.conf )
 
 启动 cdntip/panel
 
